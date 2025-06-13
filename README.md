@@ -23,8 +23,6 @@ This project aims to detect pulmonary fibrosis from CT scan images using deep le
 - Streamlit (optional frontend prototype)
 
 ## 🗂️ Project Structure
-
-.
 ├── models/ # Pre-trained models
 ├── app.py # Flask app file
 ├── templates/ # HTML templates
