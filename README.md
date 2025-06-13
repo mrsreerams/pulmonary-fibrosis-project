@@ -32,9 +32,6 @@ This project aims to detect pulmonary fibrosis from CT scan images using deep le
 ├── utils.py # Image preprocessing & helpers
 └── README.md
 
-bash
-Copy
-Edit
 
 ## 🚀 How to Run
 
@@ -43,23 +40,14 @@ Edit
    git clone https://github.com/your-username/pulmonary-fibrosis-detector.git
    cd pulmonary-fibrosis-detector
 Install dependencies
+    pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
 Run the application
+    python app.py
 
-bash
-Copy
-Edit
-python app.py
 Open in browser
+    http://localhost:5000
 
-arduino
-Copy
-Edit
-http://localhost:5000
 📊 Best Performing Model
 VGG19 + SVM delivered the highest accuracy and reliability for detection.
 
